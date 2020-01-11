@@ -1,0 +1,48 @@
+.departure {
+  background-color:rgba(255, 250, 250, 00.5);
+  align-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  height: auto;
+}
+
+.departure:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.image-departure {
+  float: left;
+  padding: 40px;
+}
+
+.image-departure img {
+  border-radius: 100%;
+}
+
+.departure-text {
+  font-size: 1.5em;
+  text-position: center center;
+  padding: 40px;
+}
+
+.button-departure {
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: darkgreen; /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  margin: 20px;
+}

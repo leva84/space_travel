@@ -1,0 +1,58 @@
+.commandos {
+  background-color:rgba(255, 250, 250, 00.5);
+  align-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+.commandos:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.heading-team {
+  padding-top: 50px;
+}
+
+.item-commandos {
+  float: left;
+  padding: 20px;
+  margin-left: 20px;
+  align-content: center;
+  height: 500px;
+  width: 250px;
+}
+
+.image-item {
+
+}
+
+.image-item img {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  border: 5px solid gray;
+  display:block;
+  margin:auto;
+}
+
+.nickname {
+  font-size: 0.7em;
+  padding: 10px;
+  margin: 10px;
+}
+
+.life-position {
+  margin: 20px;
+  font-size: 0.7em;
+}
+
+.life-position h5 {
+  padding: 10px;
+}

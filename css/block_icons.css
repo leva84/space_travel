@@ -1,0 +1,45 @@
+.block-icons {
+  background-color: white;
+  align-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+}
+
+.block-icons:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.item-block-icons {
+  float: left;
+  padding: 20px;
+  margin-left: 20px;
+  align-content: center;
+  height: 350px;
+  width: 250px;
+}
+
+.item-block-icons {
+
+}
+
+.icon-block img {
+  border-collapse: collapse ;
+  width: 100px;
+  height: 85px;
+  padding-bottom: 15px;
+}
+
+.text-small {
+  font-size: 15px;
+  padding-block: 15px;
+  color: gray;
+}
+
+.text-item-block-icons {
+ font-size: .8em;
+  color: black;
+}

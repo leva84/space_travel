@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%),
+  url("../images/Галактика млечный путь.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+}
+
+.wrapper {
+  color: dimgray;
+  font-size: 1.5em;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
