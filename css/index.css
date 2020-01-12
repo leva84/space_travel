@@ -24,3 +24,16 @@ body {
   max-width: 1300px;
   margin: 0 auto;
 }
+
+@media (max-width: 940px) {
+  body {
+    background-size: cover;
+  }
+
+}
+
+@media (max-width: 400px) {
+  body {
+    background-size: cover;
+  }
+}

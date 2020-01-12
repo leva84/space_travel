@@ -24,11 +24,11 @@
 
 .image-departure img {
   border-radius: 100%;
+  max-width: 600px;
 }
 
 .departure-text {
   font-size: 1.5em;
-  text-position: center center;
   padding: 40px;
 }
 
@@ -45,4 +45,51 @@
   padding: .7em 1.5em; /* отступ от текста */
   outline: none; /* убирать контур в Mozilla */
   margin: 20px;
+}
+
+@media (max-width: 1000px) {
+
+  .departure {
+    font-size: 70%;
+  }
+
+  .departure-text {
+    padding: 20px;
+  }
+
+  .button-departure .button{
+    font-size: 70%;
+    padding: 0.1em 0.1em;
+  }
+
+  .image-departure {
+    float: none;
+  }
+
+  .image-departure img {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .departure {
+    font-size: 50%;
+  }
+
+  .departure-text {
+    padding: 10px;
+  }
+
+  .button-departure .button{
+    font-size: 60%;
+    padding: 0.1em 0.1em;
+  }
+
+  .image-departure {
+    float: none;
+  }
+
+  .image-departure img {
+    max-width: 250px;
+  }
 }
