@@ -54,6 +54,7 @@
 @media (max-width: 940px) {
   .intro {
     font-size: 60%;
+    background-size: cover;;
   }
 
   .intro .text-small {
@@ -75,6 +76,7 @@
   .intro {
     font-size: 40%;
     margin-top: 28%;
+    background-size: cover;
   }
 
   .button-intro .button{
