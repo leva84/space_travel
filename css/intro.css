@@ -6,8 +6,8 @@
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
   background-position: 0 0%, center top;
-  padding: 1.8em 40px;
   margin-top: 75px;
+  padding-top: 75px;
 }
 
 .label-intro img {
