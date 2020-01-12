@@ -12,7 +12,8 @@
 
 .label-intro img {
   width: content-box;
-  height:70px;
+  height: 75px;
+  margin: 0 auto;
   float: contour;
 }
 
@@ -48,7 +49,40 @@
 .button {
   color: #fff;
   text-decoration: none;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
+@media (max-width: 940px) {
+  .intro {
+    font-size: 60%;
+  }
+
+  .intro .text-small {
+    font-size: 80%;
+  }
+
+
+  .label-intro img {
+    height: 55px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .label-intro img {
+    height: 35px;
+  }
+
+  .intro {
+    font-size: 40%;
+    margin-top: 28%;
+  }
+
+  .button-intro .button{
+    font-size: 70%;
+    padding: 0.1em 0.1em;
+  }
+
+  .intro .text-small {
+    font-size: 70%;
+  }
+}
