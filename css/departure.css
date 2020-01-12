@@ -73,7 +73,7 @@
 
 @media (max-width: 400px) {
   .departure {
-    font-size: 50%;
+    font-size: 45%;
   }
 
   .departure-text {
@@ -90,6 +90,6 @@
   }
 
   .image-departure img {
-    max-width: 250px;
+    max-width: 200px;
   }
 }
