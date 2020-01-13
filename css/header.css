@@ -45,6 +45,11 @@ header {
   text-decoration: none;
 }
 
+.header-nav-link:hover {
+  color: darkgrey;
+  transition: all ease .5s;
+}
+
 @media (max-width: 940px) {
   header {
     width: 100%;

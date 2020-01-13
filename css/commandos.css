@@ -46,6 +46,12 @@
   padding-top: 5%;
 }
 
+.life-position h5 {
+  cursor: pointer;
+  color: crimson;
+  padding: 3%;
+}
+
 @media (max-width: 1000px) {
   .commandos{
     content: '';
