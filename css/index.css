@@ -7,8 +7,7 @@ body {
   font-family: Arial, sans-serif;
   align-content: center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%),
-  url("../images/Galaxy.jpg");
+  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
