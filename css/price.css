@@ -7,7 +7,8 @@
   background-position: 0 0%, center top;
   text-align: center;
   height: auto;
-  padding-top: 75px;
+  padding-top: 7%;
+  padding-bottom: 7%;
   color: gray;
   width: 100%;
 }
@@ -23,7 +24,7 @@
   height: auto;
   max-width: 33%;
   font-size: 0.9em;
-  border: 1px solid gray;
+
 }
 
 .name-item-price {
@@ -48,7 +49,7 @@
 
   .button-price .button{
     font-size: 70%;
-    padding: 0.1em 0.1em;
+    padding: 0.8em 0.8em;
   }
 }
 
@@ -63,7 +64,7 @@
 
   .button-price .button{
     font-size: 60%;
-    padding: 0.1em 0.1em;
+    padding: 0.5em 0.5em;
   }
 }
 

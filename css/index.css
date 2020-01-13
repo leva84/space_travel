@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  text-align: center;
-  align-items: center;
 }
 
 body {
@@ -20,9 +18,9 @@ body {
 .wrapper {
   color: dimgray;
   font-size: 1.5em;
-  width: 100%;
   max-width: 1300px;
   margin: 0 auto;
+  text-align: center;
 }
 
 @media (max-width: 940px) {

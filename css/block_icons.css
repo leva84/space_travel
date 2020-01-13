@@ -5,6 +5,8 @@
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
   background-position: 0 0%, center top;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .block-icons:after {

@@ -6,10 +6,10 @@
   background-attachment: scroll, fixed;
   background-position: 0 0%, center top;
   text-align: center;
-  padding: 20px;
   color: black;
   height: auto;
-  padding-top: 75px;
+  padding-top: 7%;
+  padding-bottom: 5%;
 }
 
 .departure:after {
@@ -43,9 +43,9 @@
     padding: 20px;
   }
 
-  .button-departure .button{
+  .button{
     font-size: 70%;
-    padding: 0.1em 0.1em;
+    padding: 0.8em 0.8em;
   }
 
   .image-departure {
@@ -66,9 +66,9 @@
     padding: 10px;
   }
 
-  .button-departure .button{
+  .button-departure{
     font-size: 60%;
-    padding: 0.1em 0.1em;
+    padding: 0.5em 0.5em;
   }
 
   .image-departure {
@@ -76,6 +76,6 @@
   }
 
   .image-departure img {
-    max-width: 200px;
+    max-width: 180px;
   }
 }
