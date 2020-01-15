@@ -59,6 +59,7 @@ header {
 
   .label-list {
     float: none;
+    padding-top: 3%;
   }
 
   .header-nav-item {
@@ -70,10 +71,10 @@ header {
 @media (max-width: 360px) {
   .header-nav-item {
     width: 40%;
-    padding-right: 1%;
+
   }
 
   .label-list {
-    margin-left: 15%;
+    margin-left: 25%;
   }
 }
